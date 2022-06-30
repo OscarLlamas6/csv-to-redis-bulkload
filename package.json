@@ -1,0 +1,19 @@
+{
+    "name": "redis-upload",
+    "version": "1.0.0",
+    "description": "Load csv to redis instance",
+    "type": "module",
+    "private": true,
+    "scripts": {
+      "load": "node load.js"
+    },
+    "keywords": [],
+    "author": "Vanesa y Oscar",
+    "license": "ISC",
+    "dependencies": {
+      "csv-parser": "^3.0.0",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "ioredis": "^5.1.0"
+    }
+  }
